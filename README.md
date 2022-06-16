@@ -7,7 +7,7 @@ PHP/MySQLを用い、「新規登録」＆「ログイン」画面実装（前�
 ## ②工夫した点・こだわった点
 - 　卒制で取り組みたい「動画を用いた検索エンジン」のベースを想定。
 - 　トップ画面「login.php」でログインor新規登録を選択するUIを実装。
-- 「ログインする場合」：login.php → login_act.php → index.phpの順に遷移。（下記③記載の通り、index.phpへの遷移が未達）
+- 　「ログインする場合」：login.php → login_act.php → index.phpの順に遷移。（下記③記載の通り、index.phpへの遷移が未達）
 - 　「新規登録する場合」：login.php → entry.php　→check.php　→ index.phpの順に遷移。<br>
 　　　→記入ミスを記すエラー文の表示も実装。(html内にphpで記入）
         
